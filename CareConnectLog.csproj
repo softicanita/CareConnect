@@ -1,0 +1,655 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34D29DFE-87F0-4BF5-AF1F-42C847C20973}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CareConnectLog</RootNamespace>
+    <AssemblyName>CareConnectLog</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CareConnectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet30.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet30.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CareConnectDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CareConnectHome.Designer.cs">
+      <DependentUpon>CareConnectHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CareConnectLog2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CareConnectLog2.Designer.cs">
+      <DependentUpon>CareConnectLog2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.Designer.cs">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainform2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform2.Designer.cs">
+      <DependentUpon>mainform2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CareConnectHome.resx">
+      <DependentUpon>CareConnectHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CareConnectLog2.resx">
+      <DependentUpon>CareConnectLog2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform2.resx">
+      <DependentUpon>mainform2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogIn.resx">
+      <DependentUpon>UserLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UserLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogIn.Designer.cs">
+      <DependentUpon>UserLogIn.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\careconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cc2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CareConnectDataSet.xsc">
+      <DependentUpon>CareConnectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet.xss">
+      <DependentUpon>CareConnectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet1.xsc">
+      <DependentUpon>CareConnectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet1.xss">
+      <DependentUpon>CareConnectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet10.xsc">
+      <DependentUpon>CareConnectDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet10.xss">
+      <DependentUpon>CareConnectDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet11.xsc">
+      <DependentUpon>CareConnectDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet11.xss">
+      <DependentUpon>CareConnectDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet12.xsc">
+      <DependentUpon>CareConnectDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet12.xss">
+      <DependentUpon>CareConnectDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet13.xsc">
+      <DependentUpon>CareConnectDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet13.xss">
+      <DependentUpon>CareConnectDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet14.xsc">
+      <DependentUpon>CareConnectDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet14.xss">
+      <DependentUpon>CareConnectDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet15.xsc">
+      <DependentUpon>CareConnectDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet15.xss">
+      <DependentUpon>CareConnectDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet16.xsc">
+      <DependentUpon>CareConnectDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet16.xss">
+      <DependentUpon>CareConnectDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet17.xsc">
+      <DependentUpon>CareConnectDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet17.xss">
+      <DependentUpon>CareConnectDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet18.xsc">
+      <DependentUpon>CareConnectDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet18.xss">
+      <DependentUpon>CareConnectDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet19.xsc">
+      <DependentUpon>CareConnectDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet19.xss">
+      <DependentUpon>CareConnectDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet2.xsc">
+      <DependentUpon>CareConnectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet2.xss">
+      <DependentUpon>CareConnectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet20.xsc">
+      <DependentUpon>CareConnectDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet20.xss">
+      <DependentUpon>CareConnectDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet21.xsc">
+      <DependentUpon>CareConnectDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet21.xss">
+      <DependentUpon>CareConnectDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet22.xsc">
+      <DependentUpon>CareConnectDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet22.xss">
+      <DependentUpon>CareConnectDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet23.xsc">
+      <DependentUpon>CareConnectDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet23.xss">
+      <DependentUpon>CareConnectDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet24.xsc">
+      <DependentUpon>CareConnectDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet24.xss">
+      <DependentUpon>CareConnectDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet25.xsc">
+      <DependentUpon>CareConnectDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet25.xss">
+      <DependentUpon>CareConnectDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet26.xsc">
+      <DependentUpon>CareConnectDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet26.xss">
+      <DependentUpon>CareConnectDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet27.xsc">
+      <DependentUpon>CareConnectDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet27.xss">
+      <DependentUpon>CareConnectDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet28.xsc">
+      <DependentUpon>CareConnectDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet28.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet28.xss">
+      <DependentUpon>CareConnectDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet29.xsc">
+      <DependentUpon>CareConnectDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet29.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet29.xss">
+      <DependentUpon>CareConnectDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet3.xsc">
+      <DependentUpon>CareConnectDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet3.xss">
+      <DependentUpon>CareConnectDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet30.xsc">
+      <DependentUpon>CareConnectDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet30.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet30.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet30.xss">
+      <DependentUpon>CareConnectDataSet30.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet4.xsc">
+      <DependentUpon>CareConnectDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet4.xss">
+      <DependentUpon>CareConnectDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet5.xsc">
+      <DependentUpon>CareConnectDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet5.xss">
+      <DependentUpon>CareConnectDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet6.xsc">
+      <DependentUpon>CareConnectDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet6.xss">
+      <DependentUpon>CareConnectDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet7.xsc">
+      <DependentUpon>CareConnectDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet7.xss">
+      <DependentUpon>CareConnectDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet8.xsc">
+      <DependentUpon>CareConnectDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet8.xss">
+      <DependentUpon>CareConnectDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet9.xsc">
+      <DependentUpon>CareConnectDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="CareConnectDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CareConnectDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CareConnectDataSet9.xss">
+      <DependentUpon>CareConnectDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Arrioch-Whack-Whack-Windows-Live-Messenger.256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CareConnect.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
